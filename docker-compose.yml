@@ -1,0 +1,7 @@
+services:
+  local-service:
+    container_name: countries-app
+    image: tup-404888-countries-app:1.0.0
+    build: .
+    ports:
+      - "8080:8080"
